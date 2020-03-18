@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect</title>
+</head>
+<body>
+  
+</body>
+<script>
+  const links = [
+    'https://it.prouve.com/register?partner=IT2003189',
+    'https://it.prouve.com/register?partner=IT2003186',
+    'https://it.prouve.com//register?partner=IT20031811',
+    'https://it.prouve.com//register?partner=IT20031811'
+  ];
+
+  const redirectLink = links[Math.floor(Math.random() * links.length)];
+
+  window.location.replace(redirectLink);
+</script>
+</html>
+
